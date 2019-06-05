@@ -7,8 +7,8 @@
     <ProjectGuid>{6C454D88-051B-410D-AB37-B2084DF20969}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dvinun.Common</RootNamespace>
-    <AssemblyName>Common</AssemblyName>
+    <RootNamespace>Dvinun.CommonDotNet</RootNamespace>
+    <AssemblyName>Dvinun.CommonDotNet</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MathUtils.cs" />
     <Compile Include="UnitTestFrameworkUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Dvinun.Common.Utils
+namespace Dvinun.CommonDotNet.Utils
 {
-    public class UnitTestFrameworkUtils
+    public class UnitTest
     {
         public static void CompareArrays<T>(T[] expected, T[] actual)
         {
